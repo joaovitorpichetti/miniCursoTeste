@@ -9,6 +9,6 @@ conf = {
 
 print(conf)
 
-print("Carros disponíveis:")
+print("\nCarros disponíveis:")
 for carro in modelos.listar_carros():
     print(f"{carro['marca']} {carro['modelo']} - Ano: {carro['ano']} - Preço: R${carro['preco']:.2f}")
